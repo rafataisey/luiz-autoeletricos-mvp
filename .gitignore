@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+backend/.jwt_secret
+backend/*.db
+backend/uploads/
+.env
