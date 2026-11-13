@@ -1,4 +1,4 @@
-# Luiz Autoelétricos — MVP (PWA offline-first + FastAPI)
+# Luiz Autoelétricos — MVP
 
 ## Estrutura
 ```
