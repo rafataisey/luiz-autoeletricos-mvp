@@ -267,3 +267,6 @@ def photo(name: str = PathParam(pattern=PHOTO_NAME)):
 # ---------------------------------------------------------------- frontend estático (mesma origem)
 if FRONTEND_DIR.is_dir():
     app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")
+
+from a2wsgi import ASGIMiddleware
+wsgi_app = ASGIMiddleware(app)
